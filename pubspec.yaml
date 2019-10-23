@@ -1,6 +1,6 @@
 name: dep_check
 description: A package which simplifies the task of updating your Flutter dependencies.
-version: 0.0.1
+version: 0.0.1-alpha1
 maintainer: Tim Rijckaert <tim.rijckaert@gmail.com>
 homepage: https://github.com/vrtdev/dep_check
 authors:
@@ -10,6 +10,7 @@ dependencies:
   args: ^1.5.2
   yaml: ^2.2.0
   pub_semver: ^1.4.2
+  http: ^0.12.0
 
 environment:
   sdk: '>=2.5.0 <3.0.0'

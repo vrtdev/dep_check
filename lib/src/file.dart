@@ -43,7 +43,9 @@ class FileHelper {
       final String pubSpecKey,
     ) {
       VersionConstraint _sanitizeDependencyVersion(final MapEntry it) =>
-          it.value != null ? VersionConstraint.parse(it.value) : VersionConstraint.any;
+          it.value != null
+              ? VersionConstraint.parse(it.value)
+              : VersionConstraint.any;
 
       final YamlMap contents = (pubSpecDoc.contents as YamlMap)[pubSpecKey];
       return contents.entries

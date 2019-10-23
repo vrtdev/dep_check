@@ -9,6 +9,9 @@ import 'package:dep_check/src/models.dart';
 import 'package:dep_check/src/printer.dart';
 import 'package:dep_check/src/pub.dart';
 
+/// Checks your `pubspec.yaml` dependencies with pub to see if there are newer versions available
+/// You can optionally specify the location of your pubspec.yaml with the `-p` flag
+/// You can optionally specify the location of your pubspec.lock with the `-l` flag
 void checkDependencies(final List<String> args) async {
   try {
     final cliArgs = CLIArgParser.fromRawArgs(args);
