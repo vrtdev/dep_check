@@ -1,1 +1,1 @@
-# Flutter Dependencies Check
+# Pub Dev Dependencies Checker

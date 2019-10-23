@@ -1,14 +1,9 @@
 analyzer:
-  exclude:
-    - lib/*.g..dart
-    - test/**_test.dart
-
 linter:
   rules:
     - annotate_overrides
     - always_declare_return_types
     - always_put_required_named_parameters_first
-    - always_require_non_null_named_parameters
     - avoid_empty_else
     - avoid_field_initializers_in_const_classes
     - avoid_init_to_null
@@ -68,7 +63,6 @@ linter:
     - unnecessary_this
     - unrelated_type_equality_checks
     - use_function_type_syntax_for_parameters
-    - use_full_hex_values_for_flutter_colors
     - use_to_and_as_if_applicable
     - use_rethrow_when_possible
     - valid_regexps
