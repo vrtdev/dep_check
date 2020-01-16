@@ -9,11 +9,11 @@ Checks if your dependencies are up to date in your `pubspec.yaml`.
 # :book: Installation
 
 ```shell
-pub global activate dep_check
+flutter pub global activate dep_check
 ```
 
 In your desired project go and enter.
 
 ```shell
-pub global run dep_check
+flutter pub global run dep_check
 ```
